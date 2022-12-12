@@ -6,6 +6,7 @@ public class adding : MonoBehaviour
 {
     public GameObject furn;
     public Transform position;
+    public GameObject canvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +22,6 @@ public class adding : MonoBehaviour
     public void create_furn()
     {
         Instantiate(furn, position);
+        canvas.SetActive(false);
     }
 }

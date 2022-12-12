@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -460,6 +460,7 @@ GameObject:
   - component: {fileID: 175492310}
   - component: {fileID: 175492309}
   - component: {fileID: 175492308}
+  - component: {fileID: 175492311}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -544,6 +545,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 175492311}
+        m_TargetAssemblyTypeName: adding, Assembly-CSharp
+        m_MethodName: create_furn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &175492309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -582,6 +595,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175492306}
   m_CullTransparentMesh: 1
+--- !u!114 &175492311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175492306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a898247ad14fcc4082a5f5402e78ec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  furn: {fileID: 4289860172667258303, guid: fd8bd91620d3b02419b0902193dec255, type: 3}
+  position: {fileID: 641416981}
+  canvas: {fileID: 1969576297}
 --- !u!1001 &274092709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1340,6 +1368,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633504395}
   m_CullTransparentMesh: 1
+--- !u!1 &641416980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 641416981}
+  m_Layer: 0
+  m_Name: 'thepostionobject '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &641416981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641416980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &662157650
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,6 +2014,7 @@ GameObject:
   - component: {fileID: 1197366507}
   - component: {fileID: 1197366506}
   - component: {fileID: 1197366505}
+  - component: {fileID: 1197366508}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2039,6 +2099,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1197366508}
+        m_TargetAssemblyTypeName: adding, Assembly-CSharp
+        m_MethodName: create_furn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1197366506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2077,6 +2149,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197366503}
   m_CullTransparentMesh: 1
+--- !u!114 &1197366508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197366503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a898247ad14fcc4082a5f5402e78ec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  furn: {fileID: 5865024835534261195, guid: 15a452645866c3547a3586e64968e667, type: 3}
+  position: {fileID: 641416981}
+  canvas: {fileID: 1969576297}
 --- !u!1 &1211080982
 GameObject:
   m_ObjectHideFlags: 0

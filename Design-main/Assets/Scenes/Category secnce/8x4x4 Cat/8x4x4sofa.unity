@@ -419,6 +419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   furn: {fileID: 6151372611637968216, guid: b53975d549f2f66458789c85ce26bef0, type: 3}
   position: {fileID: 1050373702}
+  canvas: {fileID: 958081475}
 --- !u!1 &271080784
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,8 +2767,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a898247ad14fcc4082a5f5402e78ec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furn: {fileID: 0}
-  position: {fileID: 0}
+  furn: {fileID: 1763404737341184547, guid: 63e5676c72e064d44b495603513deb8e, type: 3}
+  position: {fileID: 1050373702}
+  canvas: {fileID: 958081475}
 --- !u!1 &1611044638
 GameObject:
   m_ObjectHideFlags: 0
